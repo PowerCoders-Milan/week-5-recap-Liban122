@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+   height: 100vh; 
+    width: 100%;
+    flex-direction: column;
+    text-align: center;  
+    justify-content: space-around; 
+     
+ }
+ 
+ header {
+   height: 10vh;
+    background-color: darkred;
+ 
+   
+ 
+     
+ }
+
+ main{
+     display: flex;
+     justify-content: space-around;
+     height: 100%;
+     width: 100%;
+     flex-direction: column;
+ }
+ 
+  .first  {
+    height: 25vh;
+     background-color: darkslateblue;
+ }
+ .second {
+     height: 25vh;
+     background-color: brown;
+ }
+
+ .third{
+     height: 25vh;
+     background-color: cadetblue;
+ }
+ 
+ 
+ 
+ 
+ footer {
+    height: 10vh;
+    background-color: rgb(49, 23, 37);
+    
+   
+ }
