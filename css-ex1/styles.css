@@ -1,3 +1,4 @@
+
 .container{
     display: flex;
    height: 100vh; 
@@ -5,46 +6,45 @@
     flex-direction: column;
     text-align: center;  
     justify-content: space-around; 
-     
  }
  
  header {
    height: 10vh;
-    background-color: darkred;
- 
-   
- 
-     
+   border-radius: 30px;
+    background-color: rgb(255, 70, 70);
  }
 
  main{
      display: flex;
-     justify-content: space-around;
+     justify-content: space-evenly;
      height: 100%;
-     width: 100%;
-     flex-direction: column;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     flex-direction: row;
  }
  
   .first  {
-    height: 25vh;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
      background-color: darkslateblue;
  }
  .second {
-     height: 25vh;
+    border-radius: 10px;
+    width: 200px;
+    min-height: auto;
      background-color: brown;
  }
 
  .third{
-     height: 25vh;
+    border-radius: 10px;
+    width: 200px;
+     height: auto;
      background-color: cadetblue;
  }
  
- 
- 
- 
  footer {
+    border-radius: 30px;
     height: 10vh;
     background-color: rgb(49, 23, 37);
-    
-   
  }
